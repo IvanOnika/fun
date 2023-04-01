@@ -5,12 +5,12 @@ const random = (min, max) => {
 
 const btn = document.querySelector('.btn')
 
-btn.addEventListener('mouseenter', ()=>{
+btn.addEventListener('click', ()=>{
     btn.style.left = `${random(0, 90)}%`;
     btn.style.top = `${random(0, 90)}%`;
 })
 
 
-btn.addEventListener('click', () =>{
-    alert('Вот это ничего себе!!! ты не пидор')
-})
+// btn.addEventListener('click', () =>{
+//     alert('Вот это ничего себе!!! ты не пидор')
+// })
