@@ -1,0 +1,33 @@
+body {
+  background-image: url(../img/1621876698_15-phonoteka_org-p-krasivii-fon-dlya-prezentatsii-s-klounami-16.jpg);
+  background-size: cover;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.09s;
+  background-color: rgb(214, 4, 134);
+  border-radius: 15px;
+  border: 0px;
+  color: rgb(215, 244, 99);
+  font-size: 34px;
+}
+
+.text {
+  display: block;
+  font-size: 54px;
+  color: rgb(231, 41, 41);
+  margin: 50px auto;
+}
+
+.gaming_zone {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
